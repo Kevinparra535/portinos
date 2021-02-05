@@ -1,0 +1,11 @@
+{
+  "name": "portinos",
+  "version": "1.0.0",
+  "description": "El ejercicio consiste en maquetar esta pequeña página. Se incluyen las imagenes exportadas, las tipografías, los textos y varios screenshots con el diseño.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Parra Lopez <kevinparra535@gmail.com>",
+  "license": "MIT"
+}
