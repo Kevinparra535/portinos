@@ -644,14 +644,17 @@ body {
 .hero {
   padding: 30px 5%;
   width: 100%;
-  height: 100vh;
-  background-image: url("../../static/PNG_1000/20ENT_10thGen_Masthead_LT_Option_2@2x.png");
+  height: 100%;
+  background-image: url("../../static/PNG_500/MaskGroup2@2x.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100vmax;
 }
 .hero__copy {
-  padding-top: 5%;
+  padding-top: 90%;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 .hero__copy span {
   text-transform: uppercase;
@@ -664,18 +667,18 @@ body {
   line-height: 1.2375rem;
 }
 .hero__copy h1 {
-  width: 50%;
+  width: 100%;
   text-transform: uppercase;
   font-family: "Intel-clear-pro", system-ui;
   font-weight: 700;
   color: #F2F2F2;
-  font-size: 150px;
-  font-size: 9.375rem;
-  line-height: 8.4375rem;
+  font-size: 52px;
+  font-size: 3.25rem;
+  line-height: 2.925rem;
 }
 .hero__copy button {
   margin-top: 50px;
-  padding: 20px 30px;
+  padding: 10px 20px;
   width: 200px;
   font-weight: 700;
   font-family: "Intel-clear", system-ui;
@@ -683,42 +686,301 @@ body {
   cursor: pointer;
   border: none;
   color: #262626;
-  background: #cacaca;
-  background: linear-gradient(90deg, #cacaca 0%, #828282 50%, #cacaca 100%);
-  font-size: 22px;
-  font-size: 1.375rem;
-  line-height: 1.2375rem;
+  background: #D9D9D9;
+  background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 0.9rem;
 }
 .hero__actions {
-  padding: 40px 0;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-transform: uppercase;
   font-weight: 700;
+  text-align: center;
 }
 .hero__actions p {
-  padding: 30px;
+  padding: 20px 0;
   margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
   color: #03588C;
-  font-size: 32px;
-  font-size: 2rem;
-  line-height: 1.8rem;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 0.9rem;
 }
 .hero__actions h3 {
-  margin-top: 50px;
-  padding: 20px 30px;
-  width: 55%;
+  margin-top: 30px;
+  padding: 10px 20px;
+  width: 100%;
   font-weight: 700;
   font-family: "Intel-clear", system-ui;
-  text-transform: uppercase;
   text-align: center;
   border: none;
   color: #262626;
-  background: #cacaca;
-  background: linear-gradient(90deg, #cacaca 0%, #828282 50%, #cacaca 100%);
-  font-size: 40px;
-  font-size: 2.5rem;
-  line-height: 2.25rem;
+  background: #D9D9D9;
+  background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 0.9rem;
+}
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .hero {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../static/PNG_500/MaskGroup2@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+  }
+  .hero__copy {
+    padding-top: 90%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero__copy span {
+    text-transform: uppercase;
+    font-family: "Intel-clear", system-ui;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.125rem;
+  }
+  .hero__copy h1 {
+    margin-top: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Intel-clear-pro", system-ui;
+    font-weight: 700;
+    color: #F2F2F2;
+    font-size: 110px;
+    font-size: 6.875rem;
+    line-height: 6.1875rem;
+  }
+  .hero__copy button {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: 200px;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: #262626;
+    background: #D9D9D9;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .hero__actions {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+  }
+  .hero__actions p {
+    padding: 30px;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #03588C;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .hero__actions h3 {
+    margin-top: 50px;
+    padding: 20px 40px;
+    width: auto;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-align: center;
+    border: none;
+    color: #262626;
+    background: #D9D9D9;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    font-size: 30px;
+    font-size: 1.875rem;
+    line-height: 1.6875rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .hero {
+    padding: 30px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../static/PNG_1000/20ENT_10thGen_Masthead_LT_Option_2@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+  }
+  .hero__copy {
+    padding-top: 5%;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
+  .hero__copy span {
+    text-transform: uppercase;
+    font-family: "Intel-clear", system-ui;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #F2F2F2;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.35rem;
+  }
+  .hero__copy h1 {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Intel-clear-pro", system-ui;
+    font-weight: 700;
+    color: #F2F2F2;
+    font-size: 130px;
+    font-size: 8.125rem;
+    line-height: 7.3125rem;
+  }
+  .hero__copy button {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: 200px;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: #262626;
+    background: #D9D9D9;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .hero__actions {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .hero__actions p {
+    padding: 30px;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #03588C;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+  .hero__actions h3 {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: 70%;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-align: center;
+    border: none;
+    color: #262626;
+    background: #D9D9D9;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 2.25rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .hero {
+    padding: 30px 5%;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../static/PNG_1000/20ENT_10thGen_Masthead_LT_Option_2@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+  }
+  .hero__copy {
+    padding-top: 5%;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
+  .hero__copy span {
+    text-transform: uppercase;
+    font-family: "Intel-clear", system-ui;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #F2F2F2;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .hero__copy h1 {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Intel-clear-pro", system-ui;
+    font-weight: 700;
+    color: #F2F2F2;
+    font-size: 150px;
+    font-size: 9.375rem;
+    line-height: 8.4375rem;
+  }
+  .hero__copy button {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: 200px;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: #262626;
+    background: #D9D9D9;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .hero__actions {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+  }
+  .hero__actions p {
+    padding: 30px;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #03588C;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+  .hero__actions h3 {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: 58%;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-align: center;
+    border: none;
+    color: #262626;
+    background: #D9D9D9;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 2.25rem;
+  }
 }
