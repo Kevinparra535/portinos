@@ -1,0 +1,85 @@
+@import "../Tokens/colors";
+@import "../Tokens/spacings";
+@import "../Tokens/typos";
+
+.hero {
+  padding: $space_x3 5%;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../static/PNG_1000/20ENT_10thGen_Masthead_LT_Option_2@2x.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+  &__copy {
+    padding-top: 5%;
+    span {
+      text-transform: uppercase;
+      font-family: $Fuente1;
+      font-weight: $bolder;
+      letter-spacing: 1px;
+      color: $color-claro;
+      @include font-size($h3);
+    }
+    h1 {
+      width: 50%;
+      text-transform: uppercase;
+      font-family: $Fuente2;
+      font-weight: $bolder;
+      color: $color-claro;
+      @include font-size(150px);
+    }
+    button {
+      margin-top: 50px;
+      padding: $space_x2 $space_x3;
+      width: 200px;
+      font-weight: $bolder;
+      font-family: $Fuente1;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      color: $color-oscuro;
+      background: rgb(202, 202, 202);
+      background: linear-gradient(
+        90deg,
+        rgba(202, 202, 202, 1) 0%,
+        rgba(130, 130, 130, 1) 50%,
+        rgba(202, 202, 202, 1) 100%
+      );
+      @include font-size($h3);
+    }
+  }
+  &__actions {
+    padding: $space_x4 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: $bolder;
+    p {
+      padding: $space_x3;
+      margin: 0;
+      color: $color-primario;
+      @include font-size($h2);
+    }
+    h3 {
+      margin-top: 50px;
+      padding: $space_x2 $space_x3;
+      width: 55%;
+      font-weight: $bolder;
+      font-family: $Fuente1;
+      text-transform: uppercase;
+      text-align: center;
+      border: none;
+      color: $color-oscuro;
+      background: rgb(202, 202, 202);
+      background: linear-gradient(
+        90deg,
+        rgba(202, 202, 202, 1) 0%,
+        rgba(130, 130, 130, 1) 50%,
+        rgba(202, 202, 202, 1) 100%
+      );
+      @include font-size(40px);
+    }
+  }
+}
