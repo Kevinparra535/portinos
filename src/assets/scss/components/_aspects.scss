@@ -30,7 +30,7 @@
     flex-direction: column;
     position: relative;
     z-index: -2;
-    margin: -40px;
+    margin: -30px;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -90,7 +90,7 @@
       flex-direction: column;
       position: relative;
       z-index: -2;
-      margin: -40px;
+      margin: -50px;
       width: 100%;
       height: 100%;
       text-align: center;
@@ -117,67 +117,6 @@
         padding: $space_x3 0;
         margin: 0;
         width: 90%;
-        line-height: 25px !important;
-        color: $color-claro;
-        @include font-size($p);
-      }
-    }
-  }
-  @include media(tablet) {
-    padding: $space_x3 $space_x3;
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background-image: url("../../static/PNG_1000/Recuadro-FONDO@2x.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100vh;
-    &__tabs {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: row;
-      width: 100%;
-      text-align: right;
-    }
-    &__content {
-      padding: $space_x4 $space_x2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      position: relative;
-      z-index: -2;
-      margin: -40px;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      background: rgb(0, 6, 40);
-      background: linear-gradient(
-        180deg,
-        rgba(0, 6, 40, 0.507) 0%,
-        rgba(0, 33, 89, 500) 50%,
-        rgba(0, 83, 147, 500) 100%
-      );
-      img {
-        width: 40%;
-        object-fit: cover;
-      }
-      h1 {
-        padding: $space_x2 0;
-        width: 80%;
-        font-family: $Fuente2;
-        line-height: auto !important;
-        color: $color-claro;
-        @include font-size($h1);
-      }
-      p {
-        padding: $space_x3 0;
-        margin: 0;
-        width: 70%;
         line-height: 25px !important;
         color: $color-claro;
         @include font-size($p);
@@ -346,29 +285,7 @@
         width: 100%;
         object-fit: cover;
         cursor: pointer;
-        opacity: 0.6;
-      }
-    }
-  }
-  @include media(tablet) {
-    display: flex;
-    align-items: center;
-    width: auto;
-    &__content {
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      span {
-        display: none;
-      }
-      p {
-        display: none;
-      }
-      img {
-        width: 110px;
-        object-fit: cover;
-        cursor: pointer;
-        opacity: 0.6;
+        opacity: 0.8;
       }
     }
   }
@@ -397,7 +314,7 @@
         width: 80px;
         object-fit: cover;
         cursor: pointer;
-        opacity: 0.6;
+        opacity: 0.8;
       }
     }
     &:hover {
@@ -429,7 +346,7 @@
         width: 85px;
         object-fit: cover;
         cursor: pointer;
-        opacity: 0.6;
+        opacity: 0.8;
       }
     }
     &:hover {
