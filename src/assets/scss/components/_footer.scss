@@ -3,10 +3,21 @@
 @import "./../tokens/typos";
 
 .footer {
-  padding: $space_x4;
+  padding: 50px $space_x3;
+  margin-top: $space_x3;
   p {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    line-height: 20px !important;
     color: $color-variante;
+    @include font-size($p);
+  }
+  @include media(custom-one) {
+    padding: $space_x4;
+    p {
+      margin: 0 auto;
+      width: 90%;
+      color: $color-variante;
+    }
   }
 }

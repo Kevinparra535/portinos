@@ -728,7 +728,7 @@ body {
 }
 @media only screen and (min-width: 500px) and (max-width: 999px) {
   .hero {
-    padding: 30px;
+    padding: 30px 20px;
     width: 100%;
     height: 100%;
     background-image: url("../../static/PNG_500/MaskGroup2@2x.png");
@@ -799,7 +799,7 @@ body {
   }
   .hero__actions h3 {
     margin-top: 50px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     width: auto;
     font-weight: 700;
     font-family: "Intel-clear", system-ui;
@@ -808,9 +808,96 @@ body {
     color: #262626;
     background: #d9d9d9;
     background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
-    font-size: 30px;
-    font-size: 1.875rem;
-    line-height: 1.6875rem;
+    font-size: 25px;
+    font-size: 1.5625rem;
+    line-height: 1.40625rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding: 30px 20px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../static/PNG_500/MaskGroup2@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+  }
+  .hero__copy {
+    padding-top: 90%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero__copy span {
+    text-transform: uppercase;
+    font-family: "Intel-clear", system-ui;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.125rem;
+  }
+  .hero__copy h1 {
+    margin-top: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Intel-clear-pro", system-ui;
+    font-weight: 700;
+    color: #f2f2f2;
+    font-size: 110px;
+    font-size: 6.875rem;
+    line-height: 6.1875rem;
+  }
+  .hero__copy button {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: 200px;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: #262626;
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .hero__actions {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+  }
+  .hero__actions p {
+    padding: 30px;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #03588c;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .hero__actions h3 {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: auto;
+    font-weight: 700;
+    font-family: "Intel-clear", system-ui;
+    text-align: center;
+    border: none;
+    color: #262626;
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
+    font-size: 25px;
+    font-size: 1.5625rem;
+    line-height: 1.40625rem;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -824,7 +911,7 @@ body {
     background-size: 100vmax;
   }
   .hero__copy {
-    padding-top: 5%;
+    padding-top: 10px;
     text-align: left;
     margin: 0;
     width: 100%;
@@ -833,25 +920,26 @@ body {
     text-transform: uppercase;
     font-family: "Intel-clear", system-ui;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     color: #f2f2f2;
-    font-size: 24px;
-    font-size: 1.5rem;
-    line-height: 1.35rem;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.125rem;
   }
   .hero__copy h1 {
+    margin-top: 5px;
     width: 100%;
     text-transform: uppercase;
     font-family: "Intel-clear-pro", system-ui;
     font-weight: 700;
     color: #f2f2f2;
-    font-size: 130px;
-    font-size: 8.125rem;
-    line-height: 7.3125rem;
+    font-size: 100px;
+    font-size: 6.25rem;
+    line-height: 5.625rem;
   }
   .hero__copy button {
     margin-top: 50px;
-    padding: 20px 30px;
+    padding: 13px 20px;
     width: 200px;
     font-weight: 700;
     font-family: "Intel-clear", system-ui;
@@ -878,9 +966,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #03588c;
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 1.8rem;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
   }
   .hero__actions h3 {
     margin-top: 50px;
@@ -893,9 +981,9 @@ body {
     color: #262626;
     background: #d9d9d9;
     background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
-    font-size: 40px;
-    font-size: 2.5rem;
-    line-height: 2.25rem;
+    font-size: 30px;
+    font-size: 1.875rem;
+    line-height: 1.6875rem;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -1032,95 +1120,458 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url("../../static/PNG_1000/Recuadro-FONDO@2x.png");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100vmax;
+  background-size: 100vh;
 }
 .aspects__tabs {
-  display: block;
-  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
   text-align: right;
 }
 .aspects__content {
-  padding: 30px;
+  padding: 40px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: absolute;
-  z-index: -99;
-  top: 0;
-  left: 470px;
+  position: relative;
+  z-index: -2;
+  margin: -40px;
   width: 100%;
   height: 100%;
-  min-height: 700px;
-  max-width: 65%;
   text-align: center;
   background: #000628;
-  background: linear-gradient(90deg, #000628 0%, #002159 50%, #005393 100%);
+  background: linear-gradient(180deg, rgba(0, 6, 40, 0.507) 0%, #002159 50%, #005393 100%);
 }
 .aspects__content img {
-  width: 25%;
+  width: 50%;
   object-fit: cover;
 }
 .aspects__content h1 {
   padding: 20px 0;
-  width: 80%;
+  width: 90%;
   font-family: "Intel-clear-pro", system-ui;
   line-height: auto !important;
   color: #f2f2f2;
-  font-size: 80px;
-  font-size: 5rem;
-  line-height: 4.5rem;
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1.8rem;
 }
 .aspects__content p {
   padding: 30px 0;
   margin: 0;
-  width: 70%;
-  line-height: 35px !important;
+  width: 95%;
+  line-height: 25px !important;
   color: #f2f2f2;
-  font-size: 22px;
-  font-size: 1.375rem;
-  line-height: 1.2375rem;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 0.9rem;
+}
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .aspects {
+    padding: 30px 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../static/PNG_1000/Recuadro-FONDO@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+  }
+  .aspects__tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    text-align: right;
+  }
+  .aspects__content {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: -2;
+    margin: -40px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #000628;
+    background: linear-gradient(180deg, rgba(0, 6, 40, 0.507) 0%, #002159 50%, #005393 100%);
+  }
+  .aspects__content img {
+    width: 50%;
+    object-fit: cover;
+  }
+  .aspects__content h1 {
+    padding: 20px 0;
+    width: 80%;
+    font-family: "Intel-clear-pro", system-ui;
+    line-height: auto !important;
+    color: #f2f2f2;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+  .aspects__content p {
+    padding: 30px 0;
+    margin: 0;
+    width: 90%;
+    line-height: 25px !important;
+    color: #f2f2f2;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 0.9rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .aspects {
+    padding: 30px 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../static/PNG_1000/Recuadro-FONDO@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+  }
+  .aspects__tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    text-align: right;
+  }
+  .aspects__content {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: -2;
+    margin: -40px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #000628;
+    background: linear-gradient(180deg, rgba(0, 6, 40, 0.507) 0%, #002159 50%, #005393 100%);
+  }
+  .aspects__content img {
+    width: 40%;
+    object-fit: cover;
+  }
+  .aspects__content h1 {
+    padding: 20px 0;
+    width: 80%;
+    font-family: "Intel-clear-pro", system-ui;
+    line-height: auto !important;
+    color: #f2f2f2;
+    font-size: 52px;
+    font-size: 3.25rem;
+    line-height: 2.925rem;
+  }
+  .aspects__content p {
+    padding: 30px 0;
+    margin: 0;
+    width: 70%;
+    line-height: 25px !important;
+    color: #f2f2f2;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .aspects {
+    padding: 30px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../static/PNG_1000/Recuadro-FONDO@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+  }
+  .aspects__tabs {
+    display: block;
+    width: 300px;
+    text-align: right;
+  }
+  .aspects__content {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: -99;
+    top: 20px;
+    left: 320px;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    max-width: 65%;
+    text-align: center;
+    background: #000628;
+    background: linear-gradient(90deg, #000628 0%, #002159 50%, #005393 100%);
+  }
+  .aspects__content img {
+    width: 30%;
+    object-fit: cover;
+  }
+  .aspects__content h1 {
+    padding: 20px 0;
+    width: 80%;
+    font-family: "Intel-clear-pro", system-ui;
+    line-height: auto !important;
+    color: #f2f2f2;
+    font-size: 50px;
+    font-size: 3.125rem;
+    line-height: 2.8125rem;
+  }
+  .aspects__content p {
+    padding: 30px 0;
+    margin: 0;
+    width: 75%;
+    line-height: 25px !important;
+    color: #f2f2f2;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 0.9rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .aspects {
+    padding: 30px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../static/PNG_1000/Recuadro-FONDO@2x.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+  }
+  .aspects__tabs {
+    display: block;
+    width: 500px;
+    text-align: right;
+  }
+  .aspects__content {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: -99;
+    top: 40px;
+    left: 510px;
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    max-width: 65%;
+    text-align: center;
+    background: #000628;
+    background: linear-gradient(90deg, #000628 0%, #002159 50%, #005393 100%);
+  }
+  .aspects__content img {
+    width: 25%;
+    object-fit: cover;
+  }
+  .aspects__content h1 {
+    padding: 20px 0;
+    width: 80%;
+    font-family: "Intel-clear-pro", system-ui;
+    line-height: auto !important;
+    color: #f2f2f2;
+    font-size: 80px;
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
+  .aspects__content p {
+    padding: 30px 0;
+    margin: 0;
+    width: 70%;
+    line-height: 35px !important;
+    color: #f2f2f2;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
 }
 
-.tabs__content {
+.tabs {
   display: flex;
   align-items: center;
 }
+.tabs__content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
 .tabs__content span {
-  color: #03588c;
+  display: none;
 }
 .tabs__content p {
-  padding: 0 20px;
-  width: 100%;
-  font-family: "Intel-clear", system-ui;
-  font-weight: 700;
-  text-align: right;
-  text-transform: uppercase;
-  line-height: normal !important;
-  color: #f2f2f2;
-  font-size: 22px;
-  font-size: 1.375rem;
-  line-height: 1.2375rem;
+  display: none;
 }
 .tabs__content img {
-  width: 100px;
+  width: 50px;
   object-fit: cover;
   cursor: pointer;
   opacity: 0.6;
 }
-.tabs:hover {
-  text-decoration: none;
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .tabs {
+    display: flex;
+    align-items: center;
+  }
+  .tabs__content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .tabs__content span {
+    display: none;
+  }
+  .tabs__content p {
+    display: none;
+  }
+  .tabs__content img {
+    width: 70px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .tabs {
+    display: flex;
+    align-items: center;
+  }
+  .tabs__content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .tabs__content span {
+    display: none;
+  }
+  .tabs__content p {
+    display: none;
+  }
+  .tabs__content img {
+    width: 90px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .tabs {
+    display: block;
+  }
+  .tabs__content {
+    display: flex;
+    align-items: center;
+  }
+  .tabs__content span {
+    display: inline;
+    color: #03588c;
+  }
+  .tabs__content p {
+    padding: 0 20px 0 0;
+    display: inline;
+    width: 100%;
+    font-family: "Intel-clear", system-ui;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: normal !important;
+    color: #f2f2f2;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 0.9rem;
+  }
+  .tabs__content img {
+    width: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .tabs:hover {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .tabs {
+    display: block;
+  }
+  .tabs__content {
+    display: flex;
+    align-items: center;
+  }
+  .tabs__content span {
+    display: inline;
+    color: #03588c;
+  }
+  .tabs__content p {
+    padding: 0 20px;
+    display: inline;
+    width: 100%;
+    font-family: "Intel-clear", system-ui;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: normal !important;
+    color: #f2f2f2;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
+  }
+  .tabs__content img {
+    width: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .tabs:hover {
+    text-decoration: none;
+  }
 }
 
 .active img {
-  width: 100px;
-  object-fit: cover;
   opacity: 1;
+}
+@media only screen and (min-width: 1000px) {
+  .active img {
+    object-fit: cover;
+    opacity: 1;
+  }
 }
 
 @font-face {
@@ -1168,20 +1619,85 @@ body {
 .divider {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   position: relative;
   z-index: -1;
-  margin: -5px 0;
-  width: 454px;
-  height: 50px;
+  margin: 0;
+  width: 40px;
+  height: 0px;
   opacity: 0.8;
 }
 .divider span {
   position: absolute;
   z-index: -2;
-  width: 8px;
-  height: 50px;
+  width: 100%;
+  height: 5px;
   background-color: #737373;
+}
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+    margin: 0;
+    width: 50px;
+    height: 0px;
+    opacity: 0.8;
+  }
+  .divider span {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 5px;
+    background-color: #737373;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  .divider {
+    width: 115px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: -1;
+    margin: -5px 0;
+    width: 264px;
+    height: 50px;
+    opacity: 0.8;
+  }
+  .divider span {
+    position: absolute;
+    z-index: -2;
+    width: 8px;
+    height: 50px;
+    background-color: #737373;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: -1;
+    margin: -5px 0;
+    width: 454px;
+    height: 50px;
+    opacity: 0.8;
+  }
+  .divider span {
+    position: absolute;
+    z-index: -2;
+    width: 8px;
+    height: 50px;
+    background-color: #737373;
+  }
 }
 
 @font-face {
@@ -1227,10 +1743,25 @@ body {
   src: url("../fonts/intel-clear-italic.eot"), url("../fonts/intel-clear-italic.ttf"), url("../fonts/intel-clear-italic.woff");
 }
 .footer {
-  padding: 40px;
+  padding: 50px 30px;
+  margin-top: 30px;
 }
 .footer p {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
+  line-height: 20px !important;
   color: #d9d9d9;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 0.9rem;
+}
+@media only screen and (min-width: 1000px) {
+  .footer {
+    padding: 40px;
+  }
+  .footer p {
+    margin: 0 auto;
+    width: 90%;
+    color: #d9d9d9;
+  }
 }
