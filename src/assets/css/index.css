@@ -987,17 +987,8 @@ body {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .hero {
-    padding: 30px 5%;
-    width: 100%;
-    height: 100vh;
-    background-image: url("../../static/PNG_1000/20ENT_10thGen_Masthead_LT_Option_2@2x.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100vmax;
-  }
   .hero__copy {
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: left;
     margin: 0;
     width: 100%;
@@ -1008,19 +999,20 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
     color: #f2f2f2;
-    font-size: 22px;
-    font-size: 1.375rem;
-    line-height: 1.2375rem;
+    font-size: 25px;
+    font-size: 1.5625rem;
+    line-height: 1.40625rem;
   }
   .hero__copy h1 {
+    margin-top: 10px;
     width: 100%;
     text-transform: uppercase;
     font-family: "Intel-clear-pro", system-ui;
     font-weight: 700;
     color: #f2f2f2;
-    font-size: 150px;
-    font-size: 9.375rem;
-    line-height: 8.4375rem;
+    font-size: 140px;
+    font-size: 8.75rem;
+    line-height: 7.875rem;
   }
   .hero__copy button {
     margin-top: 50px;
@@ -1044,17 +1036,18 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 40px;
     font-weight: 700;
   }
   .hero__actions p {
-    padding: 30px;
+    padding: 30px 0;
     margin: 0;
     font-weight: 700;
     text-transform: uppercase;
     color: #03588c;
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 1.8rem;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.2375rem;
   }
   .hero__actions h3 {
     margin-top: 50px;
@@ -1067,9 +1060,9 @@ body {
     color: #262626;
     background: #d9d9d9;
     background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
-    font-size: 40px;
-    font-size: 2.5rem;
-    line-height: 2.25rem;
+    font-size: 35px;
+    font-size: 2.1875rem;
+    line-height: 1.96875rem;
   }
 }
 
@@ -1377,7 +1370,7 @@ body {
   }
   .aspects__tabs {
     display: block;
-    width: 500px;
+    width: 400px;
     text-align: right;
   }
   .aspects__content {
@@ -1389,7 +1382,7 @@ body {
     position: absolute;
     z-index: -99;
     top: 40px;
-    left: 510px;
+    left: 410px;
     width: 100%;
     height: 100%;
     min-height: 700px;
@@ -1542,7 +1535,7 @@ body {
     color: #03588c;
   }
   .tabs__content p {
-    padding: 0 20px;
+    padding: 0 20px 0 0;
     display: inline;
     width: 100%;
     font-family: "Intel-clear", system-ui;
@@ -1551,12 +1544,12 @@ body {
     text-transform: uppercase;
     line-height: normal !important;
     color: #f2f2f2;
-    font-size: 22px;
-    font-size: 1.375rem;
-    line-height: 1.2375rem;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 0.9rem;
   }
   .tabs__content img {
-    width: 100px;
+    width: 85px;
     object-fit: cover;
     cursor: pointer;
     opacity: 0.6;
@@ -1698,7 +1691,7 @@ body {
     position: relative;
     z-index: -1;
     margin: -5px 0;
-    width: 454px;
+    width: 362px;
     height: 50px;
     opacity: 0.9;
   }
