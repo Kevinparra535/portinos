@@ -1,0 +1,68 @@
+@import "./../tokens/colors";
+@import "./../tokens/spacings";
+@import "./../tokens/typos";
+
+.mediaPlayer {
+  padding-top: 10px;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: get-opacity($color-oscuro, 0.8);
+  &__content {
+    padding: $space_x3;
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+    iframe {
+      width: 100%;
+      height: 300px;
+    }
+    button {
+      margin: $space_x2 0;
+      font-weight: $medium;
+      border: none;
+      border-radius: 100%;
+      cursor: pointer;
+      color: $color-claro;
+      background-color: transparent;
+      @include font-size($h3);
+    }
+  }
+  @include media(custom-one) {
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: get-opacity($color-oscuro, 0.8);
+    &__content {
+      padding: $space_x3;
+      margin: 0 auto;
+      width: 80%;
+      text-align: right;
+      iframe {
+        width: 100%;
+        height: 415px;
+      }
+      button {
+        margin: $space_x2 0;
+        font-weight: $medium;
+        border: none;
+        border-radius: 100%;
+        cursor: pointer;
+        color: $color-claro;
+        background-color: transparent;
+        @include font-size($h3);
+      }
+    }
+  }
+}
