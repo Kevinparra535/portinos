@@ -1,0 +1,12 @@
+@import "./../tokens/colors";
+@import "./../tokens/spacings";
+@import "./../tokens/typos";
+
+.footer {
+  padding: $space_x4;
+  p {
+    margin: 0 auto;
+    width: 90%;
+    color: $color-variante;
+  }
+}
