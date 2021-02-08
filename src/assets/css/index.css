@@ -661,7 +661,7 @@ body {
   font-family: "Intel-clear", system-ui;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-size: 22px;
   font-size: 1.375rem;
   line-height: 1.2375rem;
@@ -671,7 +671,7 @@ body {
   text-transform: uppercase;
   font-family: "Intel-clear-pro", system-ui;
   font-weight: 700;
-  color: #F2F2F2;
+  color: #f2f2f2;
   font-size: 52px;
   font-size: 3.25rem;
   line-height: 2.925rem;
@@ -686,8 +686,8 @@ body {
   cursor: pointer;
   border: none;
   color: #262626;
-  background: #D9D9D9;
-  background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+  background: #d9d9d9;
+  background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
   font-size: 16px;
   font-size: 1rem;
   line-height: 0.9rem;
@@ -706,7 +706,7 @@ body {
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
-  color: #03588C;
+  color: #03588c;
   font-size: 16px;
   font-size: 1rem;
   line-height: 0.9rem;
@@ -720,8 +720,8 @@ body {
   text-align: center;
   border: none;
   color: #262626;
-  background: #D9D9D9;
-  background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+  background: #d9d9d9;
+  background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
   font-size: 16px;
   font-size: 1rem;
   line-height: 0.9rem;
@@ -747,7 +747,7 @@ body {
     font-family: "Intel-clear", system-ui;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 1.125rem;
@@ -758,7 +758,7 @@ body {
     text-transform: uppercase;
     font-family: "Intel-clear-pro", system-ui;
     font-weight: 700;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-size: 110px;
     font-size: 6.875rem;
     line-height: 6.1875rem;
@@ -773,8 +773,8 @@ body {
     cursor: pointer;
     border: none;
     color: #262626;
-    background: #D9D9D9;
-    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1.2375rem;
@@ -792,7 +792,7 @@ body {
     margin: 0;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03588C;
+    color: #03588c;
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1.2375rem;
@@ -806,8 +806,8 @@ body {
     text-align: center;
     border: none;
     color: #262626;
-    background: #D9D9D9;
-    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
     font-size: 30px;
     font-size: 1.875rem;
     line-height: 1.6875rem;
@@ -834,7 +834,7 @@ body {
     font-family: "Intel-clear", system-ui;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 1.35rem;
@@ -844,7 +844,7 @@ body {
     text-transform: uppercase;
     font-family: "Intel-clear-pro", system-ui;
     font-weight: 700;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-size: 130px;
     font-size: 8.125rem;
     line-height: 7.3125rem;
@@ -859,8 +859,8 @@ body {
     cursor: pointer;
     border: none;
     color: #262626;
-    background: #D9D9D9;
-    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1.2375rem;
@@ -877,7 +877,7 @@ body {
     margin: 0;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03588C;
+    color: #03588c;
     font-size: 32px;
     font-size: 2rem;
     line-height: 1.8rem;
@@ -891,8 +891,8 @@ body {
     text-align: center;
     border: none;
     color: #262626;
-    background: #D9D9D9;
-    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
     font-size: 40px;
     font-size: 2.5rem;
     line-height: 2.25rem;
@@ -919,7 +919,7 @@ body {
     font-family: "Intel-clear", system-ui;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1.2375rem;
@@ -929,7 +929,7 @@ body {
     text-transform: uppercase;
     font-family: "Intel-clear-pro", system-ui;
     font-weight: 700;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-size: 150px;
     font-size: 9.375rem;
     line-height: 8.4375rem;
@@ -944,8 +944,8 @@ body {
     cursor: pointer;
     border: none;
     color: #262626;
-    background: #D9D9D9;
-    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1.2375rem;
@@ -963,7 +963,7 @@ body {
     margin: 0;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03588C;
+    color: #03588c;
     font-size: 32px;
     font-size: 2rem;
     line-height: 1.8rem;
@@ -977,10 +977,174 @@ body {
     text-align: center;
     border: none;
     color: #262626;
-    background: #D9D9D9;
-    background: linear-gradient(90deg, #D9D9D9 0%, #737373 50%, #D9D9D9 100%);
+    background: #d9d9d9;
+    background: linear-gradient(90deg, #d9d9d9 0%, #737373 50%, #d9d9d9 100%);
     font-size: 40px;
     font-size: 2.5rem;
     line-height: 2.25rem;
   }
+}
+
+@font-face {
+  font-family: Intel-clear;
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/intel-clear-light-italic.eot"), url("../fonts/intel-clear-light-italic.ttf"), url("../fonts/intel-clear-light-italic.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/intel-clear-light.eot"), url("../fonts/intel-clear-light.ttf"), url("../fonts/intel-clear-light.woff");
+}
+@font-face {
+  font-family: Intel-clear-pro;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/intel-clear-pro.eot"), url("../fonts/intel-clear-pro.ttf"), url("../fonts/intel-clear-pro.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/intel-clear.eot"), url("../fonts/intel-clear.ttf"), url("../fonts/intel-clear.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/intel-clear-bold-italic.eot"), url("../fonts/intel-clear-bold-italic.ttf"), url("../fonts/intel-clear-bold-italic.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/intel-clear-bold.eot"), url("../fonts/intel-clear-bold.ttf"), url("../fonts/intel-clear-bold.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/intel-clear-italic.eot"), url("../fonts/intel-clear-italic.ttf"), url("../fonts/intel-clear-italic.woff");
+}
+.aspects {
+  padding: 30px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../static/PNG_1000/Recuadro-FONDO@2x.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+}
+.aspects__tabs {
+  display: block;
+  width: 500px;
+  text-align: right;
+}
+.aspects__content {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: -99;
+  top: 0;
+  left: 500px;
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  max-width: 60%;
+  background: #000628;
+  background: linear-gradient(90deg, #000628 0%, #002159 50%, #005393 100%);
+}
+
+.tabs__content {
+  display: flex;
+  align-items: center;
+}
+.tabs__content span {
+  color: #03588c;
+}
+.tabs__content p {
+  padding: 0 20px;
+  width: 100%;
+  font-family: "Intel-clear", system-ui;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  line-height: normal !important;
+  color: #f2f2f2;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1.2375rem;
+}
+.tabs__content img {
+  width: 100px;
+  object-fit: cover;
+}
+.tabs:hover {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Intel-clear;
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/intel-clear-light-italic.eot"), url("../fonts/intel-clear-light-italic.ttf"), url("../fonts/intel-clear-light-italic.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/intel-clear-light.eot"), url("../fonts/intel-clear-light.ttf"), url("../fonts/intel-clear-light.woff");
+}
+@font-face {
+  font-family: Intel-clear-pro;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/intel-clear-pro.eot"), url("../fonts/intel-clear-pro.ttf"), url("../fonts/intel-clear-pro.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/intel-clear.eot"), url("../fonts/intel-clear.ttf"), url("../fonts/intel-clear.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/intel-clear-bold-italic.eot"), url("../fonts/intel-clear-bold-italic.ttf"), url("../fonts/intel-clear-bold-italic.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/intel-clear-bold.eot"), url("../fonts/intel-clear-bold.ttf"), url("../fonts/intel-clear-bold.woff");
+}
+@font-face {
+  font-family: Intel-clear;
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/intel-clear-italic.eot"), url("../fonts/intel-clear-italic.ttf"), url("../fonts/intel-clear-italic.woff");
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: -1;
+  margin: -5px 0;
+  width: 454px;
+  height: 50px;
+}
+.divider span {
+  position: absolute;
+  z-index: -2;
+  width: 8px;
+  height: 50px;
+  background-color: #737373;
 }

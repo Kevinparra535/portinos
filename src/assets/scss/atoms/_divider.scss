@@ -1,0 +1,21 @@
+@import "./../tokens/colors";
+@import "./../tokens/spacings";
+@import "./../tokens/typos";
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: -1;
+  margin: -5px 0;
+  width: 454px;
+  height: 50px;
+  span {
+    position: absolute;
+    z-index: -2;
+    width: 8px;
+    height: 50px;
+    background-color: $color-variante-dos;
+  }
+}
